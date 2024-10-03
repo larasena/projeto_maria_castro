@@ -1,0 +1,27 @@
+.localizacao {
+  background-color: #D6D6FF;
+  display: flex;
+  justify-content: space-between;
+  padding: 10%;
+}
+
+.localizacao-texto{
+  width: 50%;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.localizacao iframe {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.localizacao-texto h2{
+  font-family:"Libre Baskerville";
+  font-size: 2.5em;
+}
+
+.localizacao-texto p{
+  font-family: "Montserrat Alternates";
+  font-size: 1.1em;
+}

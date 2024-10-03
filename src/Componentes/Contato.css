@@ -1,0 +1,70 @@
+.contato {
+  background-color:#b1aacf;
+  padding: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.redes-sociais {
+  justify-content: center;
+}
+
+.redes-sociais a {
+  cursor: pointer;
+}
+
+.redes-sociais img {
+  width: 30%;
+  padding-bottom: 1%;
+}
+
+.redes-sociais i {
+  margin: 2%;
+}
+
+.redes-sociais p {
+  padding-bottom: 5%;
+  font-size: 1.125em;
+  font-family:"Montserrat Alternates";
+}
+
+.links-uteis {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: flex-start;
+  margin-right: 5%;
+}
+
+.links-uteis a {
+  text-decoration: none;
+  color: #262626;
+  font-family: "Montserrat Alternates";
+  padding: 3%;
+  font-size: 1.125em;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.links-uteis a:hover{
+  color: #444444;
+}
+
+
+
+.item {
+  display: flex;
+}
+
+.item a {
+  text-decoration: none;
+  color: #262626;
+  padding: 5%;
+}
+
+
+.item  p {
+  align-self: center;
+  font-size: 1.125em;
+  font-family: "Montserrat Alternates";
+}

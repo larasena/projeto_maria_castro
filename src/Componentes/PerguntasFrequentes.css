@@ -1,0 +1,56 @@
+.faq {
+  background-color: #D6D6FF;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq h1 {
+  font-family: "Libre Baskerville";
+  font-size: 1.8em;
+}
+
+.faq-item ul{
+  list-style-type: none; /* Remove os marcadores da lista */
+  text-align: center; /* Centraliza o texto dentro da lista */
+}
+
+.faq-item li {
+  margin-bottom: 1em; /* Espaçamento entre os itens */
+  margin-left: 10%;
+}
+
+.faq-item button {
+  font-family: "Libre Baskerville";
+  font-size: 1.5em;
+  background-color:#D6D6FF ;
+  color: #444444;
+  border: none;
+  font-size: 1.25rem;
+  margin-top: 3vw;
+  margin-right: 8vw;
+  white-space: nowrap;
+  transition: color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.faq button:hover {
+  color: #262626;
+  transform: scale(1.1);
+}
+
+.resposta {
+  margin-top: 2%;
+  font-family: "Libre Baskerville";
+  font-size: 1em;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  opacity: 0;
+}
+
+.resposta.show {
+  max-height: 200px; /* Ajuste conforme necessário */
+  opacity: 1;
+}

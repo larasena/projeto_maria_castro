@@ -1,0 +1,47 @@
+.depoimentos {
+  width: 100%;
+  background-color: #D6D6FF;
+  
+}
+
+.carousel-container {
+  width: 80%;
+  max-width: 100%; /* Ajuste conforme necessário */
+  margin: 0 auto; /* Centraliza o carrossel */
+}
+
+.slide {
+  padding: 20px; /* Ajuste conforme necessário */
+  text-align: center; /* Centraliza o texto */
+  /* Você pode adicionar mais estilos, se necessário */
+}
+
+.slide p {
+  padding: 5%;
+  font-family: "Montserrat Alternates";
+  font-size: 1.5em;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.slick-dots {
+  bottom: 10px; /* Distância do fundo do carrossel */
+}
+
+.slick-dots li {
+  margin: 0 5px; /* Espaçamento entre os pontos */
+}
+
+.slick-dots li button {
+  background-color: #ccc; /* Cor de fundo padrão dos pontos */
+  border-radius: 50%; /* Deixa os pontos redondos */
+  width: 12px; /* Largura do ponto */
+  height: 12px; /* Altura do ponto */
+  opacity: 1; /* Garante que os pontos são opacos */
+}
+
+.slick-dots li.slick-active button {
+  background-color: #007bff; /* Cor de fundo do ponto ativo */
+}

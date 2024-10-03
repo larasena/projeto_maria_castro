@@ -1,0 +1,16 @@
+footer {
+  background-color: #b1aacf;
+  color: #FFFFFF;
+  height: 8vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-family: "Montserrat Alternates";
+  font-size: 1em;
+  flex-wrap: wrap;
+  white-space: pre-wrap;
+}

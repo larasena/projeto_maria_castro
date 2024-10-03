@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #b1aacf, transparent);
+}
+
+.menu{ 
+  display: flex;
+  justify-content: space-evenly; 
+  gap: 50%;
+  align-items: center;
+  position: absolute;
+  top: 0; /* Alinha o menu no topo da página */
+  left: 0; /* Alinha o menu à esquerda */
+  width: 100%; /* Faz o menu ocupar 100% da largura */
+  z-index: 2; /* Garante que o menu fique acima da imagem */
+}
+
+.logo img {
+  height: 100px; /* Exemplo de altura para a logo (ajuste conforme necessário) */
+  width: auto; /* A largura ajustará proporcionalmente */
+}
+
+.menu a{
+  z-index: 2;
+}
+
+.menu a button {
+  height: 25%; /* Mesma altura que a logo */
+  padding: 2% 10%;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 10px;
+  color: #262626;
+  font-weight: bold;
+  font-size: 1.3rem;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer; 
+}
+
+.menu a button:hover{
+  background-color: #EBEBF2;
+  color: #444444;
+}
+
