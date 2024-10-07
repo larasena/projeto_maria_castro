@@ -1,7 +1,7 @@
 import React from 'react';
 import './Formulario.css';
-
 function Formulario(){
+
   return(
     <section className="formulario" id="formulario">
             <div className="formulario-itens">

@@ -2,6 +2,7 @@ import React from 'react';
 import './Localizacao.css';
 
 function Localizacao() {
+
   return (
     <section className="localizacao" id="localizacao">
       <div className="localizacao-texto">

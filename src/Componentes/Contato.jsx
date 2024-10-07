@@ -1,22 +1,9 @@
 import React from 'react';
 import logo from '../images/logo.jpg';
-import { Link } from 'react-scroll';
-import { useNavigate } from 'react-router-dom';
 import './Contato.css';
+import Navegacao from './Navegacao';
 
 function Contato(){
-
-  const navigate = useNavigate();
-
-    const handleNavigateToHome = () => {
-        navigate('/');
-    };
-
-    const handleNavigateToBlog = () => {
-      navigate('/blog');
-  };
-
-
   return(
     <section className="contato">
             <div className="redes-sociais">
@@ -36,18 +23,7 @@ function Contato(){
                 </a>
             </div>
 
-
-
-            <div className="links-uteis" >
-              <Link to="inicio" smooth={true} duration={800} style={{ cursor: 'pointer', marginRight: '15px' }} onClick={handleNavigateToHome}>Início </Link>
-              <Link to="blog" smooth={true} duration={800} style={{ cursor: 'pointer', marginRight: '15px' }}  onClick={handleNavigateToBlog}>Blog</Link>
-              <Link to="depoimentos" smooth={true} duration={800} style={{ cursor: 'pointer', marginRight: '15px' }}>Depoimentos</Link>
-              <Link to="sobre" smooth={true} duration={800} style={{ cursor: 'pointer', marginRight: '15px' }}>Sobre</Link>
-              <Link to="localizacao" smooth={true} duration={800} style={{ cursor: 'pointer', marginRight: '15px' }}>Localização</Link>
-              <Link to="formulario" smooth={true} duration={800} style={{ cursor: 'pointer', marginRight: '15px' }}>Formulário</Link>
-            </div>
-
-
+            <Navegacao></Navegacao>
 
             <div className="contato-dados">
                 <div className="item">
