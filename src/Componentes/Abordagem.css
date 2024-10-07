@@ -1,0 +1,25 @@
+.abordagem {
+  background-color: #D6D6FF;
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  position: relative;
+}
+
+
+.abordagem-texto {
+  width: 70%;
+  padding-left: 5%;
+  color: #262626;
+}
+
+.abordagem-texto h1{
+  font-family:"Libre Baskerville";
+  font-size: 2.5em;
+}
+
+.abordagem-texto p{
+  font-family: "Montserrat Alternates";
+  font-size: 1.5em;
+  color: #262626;;
+}
