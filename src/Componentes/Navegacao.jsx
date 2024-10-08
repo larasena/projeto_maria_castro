@@ -15,9 +15,14 @@ function Navegacao(){
       navigate('/blog');
   };
 
+  const handleNavigateToFaq = () => {
+    navigate('/faq');
+};
+
   return(
     <div className="links-uteis" >
       <Link to="inicio" smooth={true} duration={800} style={{ cursor: 'pointer', marginRight: '15px' }} onClick={handleNavigateToHome}>Início </Link>
+      <Link to="faq" smooth={true} duration={800} style={{ cursor: 'pointer', marginRight: '15px' }} onClick={handleNavigateToFaq}>Faq </Link>
       <Link to="blog" smooth={true} duration={800} style={{ cursor: 'pointer', marginRight: '15px' }}  onClick={handleNavigateToBlog}>Blog</Link>
       <Link to="depoimentos" smooth={true} duration={800} style={{ cursor: 'pointer', marginRight: '15px' }} onClick={handleNavigateToHome}>Depoimentos</Link>
       <Link to="sobre" smooth={true} duration={800} style={{ cursor: 'pointer', marginRight: '15px' }} onClick={handleNavigateToHome}>Sobre</Link>
