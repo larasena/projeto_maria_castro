@@ -5,6 +5,8 @@ import Abordagem from "../../Componentes/Abordagem";
 import AvaliacaoPsicologicaPresencial from "../../Componentes/AvaliacaoPsicologicaPresencial";
 import OrientacaoPsicologicaOnline from "../../Componentes/OrientacaoPsicologicaOnline";
 
+
+
 function Blog(){
 
   useEffect(() => {
@@ -20,6 +22,8 @@ function Blog(){
       <AvaliacaoPsicologicaPresencial></AvaliacaoPsicologicaPresencial>
       <hr></hr>
       <OrientacaoPsicologicaOnline></OrientacaoPsicologicaOnline>
+      <hr></hr>
+      
 
     </div>
   )

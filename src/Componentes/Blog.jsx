@@ -65,7 +65,7 @@ function Blog(){
           <img src={imagem8} alt="" />
           <img src={imagem9} alt="" />
       </div>
-      <Link to="/faq"><button>Perguntas Frequentes</button></Link>
+      <Link to="/faq"><button id='botaoFaq'>Perguntas Frequentes</button></Link>
     </section>
 
     
