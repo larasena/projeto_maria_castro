@@ -3,6 +3,7 @@ import Menu from '../../Componentes/Menu';
 import { useEffect } from 'react';
 import Abordagem from "../../Componentes/Abordagem";
 import AvaliacaoPsicologicaPresencial from "../../Componentes/AvaliacaoPsicologicaPresencial";
+import OrientacaoPsicologicaOnline from "../../Componentes/OrientacaoPsicologicaOnline";
 
 function Blog(){
 
@@ -18,6 +19,7 @@ function Blog(){
       <hr ></hr>
       <AvaliacaoPsicologicaPresencial></AvaliacaoPsicologicaPresencial>
       <hr></hr>
+      <OrientacaoPsicologicaOnline></OrientacaoPsicologicaOnline>
 
     </div>
   )
