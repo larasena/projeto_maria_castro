@@ -1,0 +1,17 @@
+[33m5afa102[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mpagina-blog[m[33m)[m HEAD@{0}: commit: Ajustes section blog
+[33m651de21[m HEAD@{1}: reset: moving to HEAD
+[33m651de21[m HEAD@{2}: reset: moving to 651de2169ae475bca4ddccb08488648019f6cab5
+[33macf7d40[m HEAD@{3}: commit: Inserção do componente Faqlink
+[33m6686fa6[m HEAD@{4}: commit: Inserção do componente Artigos
+[33m651de21[m HEAD@{5}: commit: Inserção do componente jsx e css Orientação Psicologica Online
+[33m3ee36a8[m HEAD@{6}: commit: início da página blog
+[33m978f2e7[m[33m ([m[1;32msepara-menu-contato[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{7}: checkout: moving from master to pagina-blog
+[33m978f2e7[m[33m ([m[1;32msepara-menu-contato[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{8}: merge separa-menu-contato: Fast-forward
+[33m7515ba0[m HEAD@{9}: checkout: moving from separa-menu-contato to master
+[33m978f2e7[m[33m ([m[1;32msepara-menu-contato[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{10}: commit: separação do componente de navegação do componente de contato
+[33m7515ba0[m HEAD@{11}: merge master: Fast-forward
+[33maefe21d[m HEAD@{12}: checkout: moving from master to separa-menu-contato
+[33m7515ba0[m HEAD@{13}: commit: pagina inicial completa
+[33maefe21d[m HEAD@{14}: checkout: moving from separa-menu-contato to master
+[33maefe21d[m HEAD@{15}: checkout: moving from master to separa-menu-contato
+[33maefe21d[m HEAD@{16}: commit (initial): gitignore

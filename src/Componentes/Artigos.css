@@ -1,0 +1,34 @@
+.artigos {
+  background-color: #D6D6FF;
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  
+}
+
+.artigos-texto {
+  width: 70%;
+  padding-left: 5%;
+  color: #262626;
+  
+}
+
+.artigos h1{
+  font-family:"Libre Baskerville";
+  font-size: 2.5em;
+}
+
+.artigos p, ol li{
+  font-family: "Montserrat Alternates";
+  font-size: 1.5em;
+  color: #262626;;
+}
+
+.artigos ol li {
+  padding: 2%;
+}
+
+.artigos img{
+ width: 50%;
+ align-self: center;
+}
