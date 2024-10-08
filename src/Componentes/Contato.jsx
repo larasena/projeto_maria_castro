@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../images/logo.jpg';
 import './Contato.css';
 import Navegacao from './Navegacao';
 import RedesSociais from './RedesSociais';
