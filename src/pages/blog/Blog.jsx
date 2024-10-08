@@ -5,6 +5,10 @@ import Abordagem from "../../Componentes/Abordagem";
 import AvaliacaoPsicologicaPresencial from "../../Componentes/AvaliacaoPsicologicaPresencial";
 import OrientacaoPsicologicaOnline from "../../Componentes/OrientacaoPsicologicaOnline";
 import Artigos from "../../Componentes/Artigos";
+import FaqLink from "../../Componentes/FaqLink";
+import Formulario from "../../Componentes/Formulario"
+import Contato from "../../Componentes/Contato";
+import Footer from "../../Componentes/Footer";
 
 
 
@@ -26,8 +30,12 @@ function Blog(){
       <hr></hr>
       <Artigos></Artigos>
       <hr></hr>
-      
-
+      <FaqLink></FaqLink>
+      <hr></hr>
+      <Formulario></Formulario>
+      <Contato></Contato>
+      <hr></hr>
+      <Footer></Footer>
     </div>
   )
 }
