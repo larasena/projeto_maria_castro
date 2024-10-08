@@ -9,7 +9,9 @@ function Menu() {
     <section className='menu'>
       <div className='logo'>
       <Link to="/"><img src={logo} alt="Logo" /></Link>
+      <p>Maria Castro <br/> CRP:04/66085</p>
       </div>
+      
       <div>
         <a href="https://wa.me/5531998651929?text=Ol%C3%A1+seja+bem+vindo%21+Como+posso+ajudar%3F+" target="_blank" rel="noopener noreferrer">
           <button className="botao">Vamos conversar?</button>
