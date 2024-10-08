@@ -27,6 +27,12 @@ hr {
   width: auto; /* A largura ajustará proporcionalmente */
 }
 
+.logo p{
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+}
+
 .menu a{
   z-index: 2;
 }
