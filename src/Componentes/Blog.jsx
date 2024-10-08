@@ -1,6 +1,6 @@
 import React from 'react';
-import imagem1 from '../images/imagem1.jpg';
-import imagem2 from '../images/imagem2.jpg';
+import presencial from '../images/presencial.jpg';
+import online from '../images/online.jpg';
 import imagem3 from '../images/imagem3.jpg';
 import imagem4 from '../images/imagem4.jpg';
 import imagem5 from '../images/imagem5.jpg';
@@ -33,7 +33,7 @@ function Blog(){
 
       <div className="imagens-blog">
         <div className="topicos" >
-            <img src={imagem1} alt="imagem1" />
+            <img src={presencial} alt="imagem1" />
             <h1>Avaliação psicológica presencial</h1>
             <p>Sessão individual para diagnóstico e avaliação emocional.</p>
             <Link to="/blog" className="smooth-scroll"> {/* Link para a página do blog */}
@@ -42,7 +42,7 @@ function Blog(){
         </div>
                 
         <div className="topicos">
-        <img src={imagem2} alt="imagem2" />
+        <img src={online} alt="online" />
             <h1>Orientação psicológica online</h1>
             <p>Apoio psicológico por videochamada para consultas remotas.</p>
             <Link to="/blog"  className="smooth-scroll"><i className="fa-solid fa-arrow-right-long"></i></Link>

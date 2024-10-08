@@ -13,7 +13,7 @@ function PerguntasFrequentes(props) {
 
   return (
     <section className="faq" id="faq">
-      <h1>FAQ</h1>
+      <h1>Perguntas Frequentes</h1>
       <div className='faq-item'>
         <ul>
           {faqItems.map((item, index) => (
