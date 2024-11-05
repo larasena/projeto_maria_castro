@@ -36,6 +36,10 @@ const Depoimentos = () => {
         </div>
         {/* Adicione mais slides conforme necessário */}
       </Slider>
+
+      <a href="https://g.co/kgs/B87x4CE " target="_blank" rel="noopener noreferrer">
+          <button className="botao">Avalie aqui</button>
+        </a>
     </section>
   );
 };

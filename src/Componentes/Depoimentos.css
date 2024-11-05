@@ -45,3 +45,24 @@
 .slick-dots li.slick-active button {
   background-color: #007bff; /* Cor de fundo do ponto ativo */
 }
+
+.depoimentos a button {
+  height: 25%; /* Mesma altura que a logo */
+  padding: 0.5% 5%;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 10px;
+  color: #262626;
+  font-family: 'Montserrat';
+  font-size: 1.3rem;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer; 
+  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-left: 41%;
+}
+
+.depoimentos a button:hover{
+  background-color: #D6D6FF;
+  color: #444444;
+}
