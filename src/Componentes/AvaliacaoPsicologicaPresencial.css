@@ -28,3 +28,36 @@
  width: 50%;
  align-self: self-end;
 }
+
+@media only screen and  (max-width: 1024px) {
+
+  .avaliacao-presencial{
+    align-items: center;
+  }
+
+  .avaliacao-presencial h1{
+    padding-top: 15%;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .avaliacao-presencial p{
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  .avaliacao-presencial img{
+    width: 40%;
+  }
+}
+
+@media only screen and  (max-width: 767px) {
+  .avaliacao-presencial h1{
+    padding-top: 22%;
+    font-size: 1em;
+  }
+
+  .avaliacao-presencial p{
+    font-size: 0.8em;
+  }
+}

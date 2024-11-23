@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   padding: 10%;
+  padding-top: 15%;
   position: relative;
 }
 
@@ -22,4 +23,37 @@
   font-family: "Montserrat Alternates";
   font-size: 1.5em;
   color: #262626;;
+}
+
+@media only screen and  (max-width: 1024px) {
+
+  .abordagem{
+    align-items: center;
+  }
+
+  .abordagem-texto h1{
+    padding-top: 15%;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .abordagem-texto p{
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  .abordagem-img{
+    width: 70%;
+  }
+}
+
+@media only screen and  (max-width: 767px) {
+  .abordagem-texto h1{
+    padding-top: 22%;
+    font-size: 1em;
+  }
+
+  .abordagem-texto p{
+    font-size: 0.8em;
+  }
 }

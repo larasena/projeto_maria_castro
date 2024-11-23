@@ -8,6 +8,7 @@ function RedesSociais(){
     <div className="redes-sociais">
       <Link to="/"><img src={logo} alt="Logo" /></Link>
       <p>Juntos conseguimos mudar</p>
+      
       <a href="https://wa.me/5531998651929?text=Olá%20seja%20bem%20vindo%21%20Como%20posso%20ajudar%3F" target="_blank" rel="noopener noreferrer">
         <i className="fa-brands fa-whatsapp fa-2xl" style={{ color: '#171b26' }}></i>
       </a>

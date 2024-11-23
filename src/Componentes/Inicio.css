@@ -65,3 +65,35 @@
   background-color: #f2f2f2; /* Altera a cor de fundo no hover */
   color: #262626;
 }
+
+
+@media only screen and  (max-width: 1024px) {
+  .inicio h1 {
+      font-size: 2em;
+      padding-top: 10%;
+  }
+
+  .inicio p {
+      font-size: 1.12em;
+      max-width: 80%;
+  }
+}
+
+@media only screen and  (max-width: 767px){
+    .inicio h1 {
+      font-size: 1.5em;
+      max-width: 80%;
+      padding-top: 10%;
+  }
+
+  .inicio p {
+      font-size: 0.8em;
+      max-width: 80%;
+      text-align: center;
+  }
+
+  .inicio button {
+      font-size: 0.6em;
+      text-align: center;
+  }
+}

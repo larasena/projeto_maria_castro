@@ -6,8 +6,6 @@
 }
 
 
-
-
 .item {
   display: flex;
 }
@@ -21,6 +19,30 @@
 
 .item  p {
   align-self: center;
-  font-size: 1.125em;
+  font-size: 1em;
   font-family: "Montserrat Alternates";
+}
+
+@media only screen and  (max-width: 767px){
+  .contato {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .item a {
+    padding: 2%;
+  }
+
+  .item a i {
+    font-size: 1em;
+  }
+
+  .item  p {
+    font-size: 0.6em;
+  }
 }

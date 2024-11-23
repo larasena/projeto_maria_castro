@@ -55,3 +55,41 @@ hr {
   color: #444444;
 }
 
+@media only screen and  (max-width: 1024px) {
+
+
+  .logo img{
+    max-width: 60%;
+    padding-left: 20%;
+  }
+
+  .logo p {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and  (max-width: 767px){
+
+  .menu{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+  }
+
+  .logo img{
+    max-width: 50%;
+    
+  }
+
+  .logo p {
+    font-size: 0.5em;
+  }
+
+ .menu button{
+  margin-right: 15%;  
+ }
+
+ .menu a button {
+  font-size: 0.8rem;
+}
+}

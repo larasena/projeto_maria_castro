@@ -54,3 +54,40 @@
   max-height: 200px; /* Ajuste conforme necessário */
   opacity: 1;
 }
+
+@media only screen and  (max-width: 1024px) {
+
+  
+
+  .faq h1{
+    padding-top: 15%;
+    font-size: 1.2em;
+  }
+
+  .faq-item button{
+    font-size: 1.0em;
+    word-wrap: break-word;
+    white-space: normal; /* Garante que o texto possa quebrar linhas */
+    overflow-wrap: break-word; /* Compatibilidade para navegadores mais novos */
+  }
+ 
+
+  .resposta{
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and  (max-width: 767px) {
+  .faq h1{
+    padding-top: 22%;
+    font-size: 1em;
+  }
+
+  .faq-item button{
+    font-size: 0.8em;
+    word-wrap: break-word;
+  white-space: normal; /* Garante que o texto possa quebrar linhas */
+  overflow-wrap: break-word; /* Compatibilidade para navegadores mais novos */
+  }
+ 
+}

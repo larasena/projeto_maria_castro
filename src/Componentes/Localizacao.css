@@ -25,3 +25,37 @@
   font-family: "Montserrat Alternates";
   font-size: 1.1em;
 }
+
+@media only screen and  (max-width: 1024px) {
+  .localizacao {
+      display: flex;
+      flex-direction: column; /* Altera a direção do layout para empilhar verticalmente */
+      align-items: center; /* Alinha os itens ao centro horizontalmente */
+  }
+
+  .localizacao iframe {
+      width: 80%;
+      
+  }
+
+  .localizacao-texto p{
+      font-family: "Montserrat Alternates";
+      font-size: 1.1em;
+      padding-bottom: 5%;
+  }
+}
+
+@media only screen and  (max-width: 767px){
+  .localizacao-texto h2{
+    font-size: 1em;
+}
+
+.localizacao-texto p{
+    font-size: 0.8em;
+}
+
+.localizacao iframe {
+    width: 60%;
+    height: auto;
+}
+}

@@ -19,7 +19,7 @@
 .slide p {
   padding: 5%;
   font-family: "Montserrat Alternates";
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 ::-webkit-scrollbar {
@@ -65,4 +65,48 @@
 .depoimentos a button:hover{
   background-color: #D6D6FF;
   color: #444444;
+}
+
+@media only screen and  (max-width: 1024px) {
+  .slide p {
+    font-size: 1em;
+}
+
+.depoimentos a button {
+  align-self: center;
+  font-size: 0.8em;
+  margin-right: 38%;
+}
+
+
+}
+
+@media only screen and  (max-width: 767px){
+
+  
+  
+  .slide {
+    padding: 10px; /* Ajuste conforme necessário */
+    text-align: center; /* Centraliza o texto */
+    /* Você pode adicionar mais estilos, se necessário */
+  }
+
+  
+  .slide p {
+    font-size: 0.6em;
+    padding-bottom: 15%;
+}
+
+.depoimentos a button {
+  font-size: 0.6em;
+}
+
+.slick-dots li {
+  margin: 0 2px; /* Espaçamento entre os pontos */
+}
+
+.slick-dots li button {
+  width: 8px; /* Largura do ponto */
+  height: 8px; /* Altura do ponto */
+}
 }

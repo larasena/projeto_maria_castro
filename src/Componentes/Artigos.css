@@ -32,3 +32,42 @@
  width: 50%;
  align-self: center;
 }
+
+@media only screen and  (max-width: 1024px) {
+
+  .artigos{
+    align-items: center;
+  }
+
+  .artigos h1{
+    padding-top: 15%;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .artigos p{
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  .artigos ol li {
+    font-size: 1em;
+    text-align: justify;
+  }
+
+}
+
+@media only screen and  (max-width: 767px) {
+  .artigos h1{
+    padding-top: 22%;
+    font-size: 1em;
+  }
+
+  .artigos p{
+    font-size: 0.8em;
+  }
+
+  .artigos ol li {
+    font-size: 0.8em;
+  }
+}

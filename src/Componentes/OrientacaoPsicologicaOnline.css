@@ -26,3 +26,36 @@
 .orientacao-online img{
  width: 50%;
 }
+
+@media only screen and  (max-width: 1024px) {
+
+  .orientacao-online{
+    align-items: center;
+  }
+
+  .orientacao-online h1{
+    padding-top: 15%;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .orientacao-online p{
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  .aorientacao-online img{
+    width: 70%;
+  }
+}
+
+@media only screen and  (max-width: 767px) {
+  .orientacao-online h1{
+    padding-top: 22%;
+    font-size: 1em;
+  }
+
+  .orientacao-online p{
+    font-size: 0.8em;
+  }
+}

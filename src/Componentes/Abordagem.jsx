@@ -15,7 +15,7 @@ function Abordagem(){
         <br/><br/>
         <p>Se você está enfrentando dificuldades emocionais ou comportamentais, a TCC oferece uma abordagem prática e eficaz para ajudá-lo a superar seus desafios e alcançar uma vida mais satisfatória e significativa.</p>
     </div>
-    <img src={abordagem1} alt="" />
+    <img className='abordagem-img'  src={abordagem1} alt="" />
 </section>
   )
 }

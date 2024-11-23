@@ -96,3 +96,69 @@
 }
 
 
+@media only screen and  (max-width: 1024px) {
+  .blog {
+    display: flex;
+    align-items: center;
+ }
+
+ .texto-principal {
+  text-align: justify;
+  margin-left: 0vw;
+}
+
+.topicos {
+  text-align: center;
+  align-self: center;
+}
+
+.topicos h1 {
+  text-align: center;
+  padding-left: 7%;
+  font-size: 1.2em;
+}
+
+.topicos p{
+  text-align: center;
+  padding-left: 10%;
+  padding-bottom: 3%;
+  font-size: 0.8em;
+}
+
+.topicos img{
+  max-width: 60%;
+  height: auto;
+}
+
+.imagens-blog{
+  flex-wrap: wrap;
+  
+}
+
+}
+
+@media only screen and  (max-width: 767px){
+  .texto-principal {
+    font-size: 0.8em;
+}
+
+.topicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagens-blog {
+    flex-direction: column;
+}
+
+.topicos img {
+    padding-top: 10%;
+    
+}
+
+.blog button{
+  font-size: 0.8em;
+}
+
+}

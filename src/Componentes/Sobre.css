@@ -24,3 +24,42 @@
   font-family: "Montserrat Alternates";
   font-size: 1.1em;
 }
+
+
+@media only screen and  (max-width: 1024px) {
+  .sobre {
+    display: flex;
+    flex-direction: column; /* Altera a direção do layout para empilhar verticalmente */
+    align-items: center; /* Alinha os itens ao centro horizontalmente */
+    padding: 5% 0; 
+}
+
+.sobre img {
+    width: 60%;
+}
+
+.sobre-texto {
+    width: 70%;
+    padding-top: 5%;
+    padding-left: 0;
+    text-align: justify;
+}
+
+}
+
+@media only screen and  (max-width: 767px){
+
+  .sobre img {
+    width: 40%;
+  }
+
+
+    .sobre-texto h1{
+      font-size: 1.2em;
+      text-align: center;
+  }
+
+  .sobre-texto{
+    font-size: 0.8em;
+  }
+}
