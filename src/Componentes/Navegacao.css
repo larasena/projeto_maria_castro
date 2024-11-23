@@ -25,11 +25,12 @@
   .links-uteis{
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-right: 0;
+    margin-left: 3%;
   }
   
   .links-uteis a {
     align-self: center;
     font-size: 0.6em;
-    padding-left: 53%;
   }
 }

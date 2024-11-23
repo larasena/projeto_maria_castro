@@ -57,3 +57,16 @@
     font-size: 0.8em;
   }
 }
+
+
+@media only screen and  (max-width: 560px) {
+  .abordagem-texto h1{
+    padding-top: 40%;
+  }
+}
+
+@media only screen and  (max-width: 340px) {
+  .abordagem-texto h1{
+    padding-top: 70%;
+  }
+}
