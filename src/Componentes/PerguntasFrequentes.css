@@ -74,6 +74,7 @@
 
   .resposta{
     font-size: 0.8em;
+    overflow: scroll;
   }
 }
 
@@ -88,6 +89,10 @@
     word-wrap: break-word;
   white-space: normal; /* Garante que o texto possa quebrar linhas */
   overflow-wrap: break-word; /* Compatibilidade para navegadores mais novos */
+  }
+
+  .resposta{
+    font-size: 0.6em;
   }
  
 }
